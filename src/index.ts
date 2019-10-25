@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command, flags } from '@oclif/command';
 import request = require('request-promise-native');
 import moment = require('moment');
