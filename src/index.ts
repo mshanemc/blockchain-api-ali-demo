@@ -31,7 +31,7 @@ class BlockchainDemo extends Command {
     const record = {
       vin: flags.vin,
       description: 'Front Windshield Replacement',
-      event_date: moment().format('YYYY-MM-DD HH:hh:ss')
+      event_date: moment().format('YYYY-MM-DD HH:mm:ss')
     };
 
     console.log(
